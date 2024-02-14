@@ -29,7 +29,8 @@ Create a backup of your vault before processing it with the script!
 # Sure can I use it already?
 Yes you can. Follow the steps below:
 
-> [!WARNING] Make sure you didn’t skip the requirements!
+> [!WARNING] 
+> Make sure you didn’t skip the requirements!
 
 1. **Close Obsidian**
 2. Open a command line inside your `MyEmptyFolder`. Then ask Python to run the script like this, for example, to postpone **both your card AND note review due dates** by **10 days:**
@@ -51,7 +52,8 @@ Or **notes only** too:
 python obsidian_postponer.py 10 -n
 ```
 
-> [!IMPORTANT] If you make a mistake…
+> [!IMPORTANT] 
+> **If you make a mistake…**
 > Example: you postponed everything by `100` days but you only wanted to postpone by `10`. Simply do another postpone of `-90` days. 
 
 If you want the script to tell you the above:
